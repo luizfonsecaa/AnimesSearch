@@ -4,7 +4,7 @@
     :class="isPage ? 'justify-between' : 'justify-end'"
   >
     <div class="logo two-colors text-lg cursor-pointer" @click="goHome()" v-if="isPage">
-      Anime frends
+      Anime friends
     </div>
     <div class="flex items-center">
       <span>{{ user.name }}</span>

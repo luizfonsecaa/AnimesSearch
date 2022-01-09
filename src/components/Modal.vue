@@ -15,8 +15,10 @@
         </div>
         <div class="h-full flex flex-col justify-center">
           <h1 class="text-3xl">{{ anime.title }}</h1>
-          <p class="text-lg">{{ anime.episodes }}</p>
-          <p class="text-xl">{{ anime.synopsis }}</p>
+          <p class="text-md mb-3">
+            {{ anime.episodes }} {{ anime.episodes == 1 ? 'episode' : 'episodes' }}
+          </p>
+          <p class="text-lg">{{ anime.synopsis }}</p>
         </div>
       </div>
     </div>

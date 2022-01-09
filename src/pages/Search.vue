@@ -29,11 +29,11 @@
       </div>
       <div class="flex justify-center mt-10" v-if="this.animes.length === 0">
         <h1 class="text-md md:text-lg text-center">
-          Sua pesquisa não encontrou nenhum documento correspondente
+          Your research do not found any corresponding document
         </h1>
       </div>
       <div class="my-2 flex justify-center" v-if="this.animes.length > 0">
-        <button class="bg-gray-200 py-1 mr-2 rounded-md w-36" @click="page++">Proxma Pagina</button>
+        <button class="bg-gray-200 py-1 mr-2 rounded-md w-36" @click="page++">More results</button>
       </div>
     </div>
   </div>

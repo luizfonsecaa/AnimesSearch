@@ -1,7 +1,46 @@
-# Vue 3 + Vite
+# Projeto Anime Friends
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<br>
+<br>
+<p align="center">
+<img src="./src/images/logo.png" width="700" heigth="300" >
+</p>
+<br>
+<br>
 
-## Recommended IDE Setup
+## 1. Apresetação
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+<h3> Este projeto foi desenvolvido em Vue 3, Vuex, Tailwind and SpeechRecognition API. </h3>
+
+<br>
+<br>
+
+## 2. Objetivo
+
+<h3> O objetivo deste projeto é poder pesquisar animes! </h3>
+
+<br>
+<br>
+
+## 3. Funcionalidades
+
+<h3> Você pode digitar ou falar qual o anime que você está procurando, assim que clicar em procurar, ele irá trazer diversos resultados referentes ao anime, clicando em cima desses resultados você poderá ver:
+
+<br>
+
+> Nome do anime;
+
+> Quantidade de episódios;
+
+> Breve resumo.
+
+<br>
+<br>
+<p align="center">
+<img src="./src/images/search.png" width="1000" heigth="300" >
+<br>
+<br>
+<img src="./src/images/result.png" width="1000" heigth="300" >
+</p>
+<br>
+<br>

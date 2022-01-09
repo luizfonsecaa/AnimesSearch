@@ -31,6 +31,9 @@ const mutations = {
   },
 
   SAVE_SEARCH(state, [value]) {
+    if (value === "Listening...") {
+      state.inputSearch = ""
+    }
     state.inputSearch = value
   },
 

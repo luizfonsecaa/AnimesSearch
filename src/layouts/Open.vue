@@ -13,7 +13,6 @@
 </template>
 
 <script>
-import axios from 'axios'
 import Header from '../components/Header.vue'
 import { mapGetters } from 'vuex'
 export default {

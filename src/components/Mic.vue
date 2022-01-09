@@ -32,7 +32,7 @@ export default {
       recognition.lang = 'pt_BR'
 
       recognition.onstart = () => {
-        this.$store.dispatch('animes/SET_MIC', ['ouvindo...'])
+        this.$store.dispatch('animes/SET_MIC', ['Listening...'])
         this.$store.dispatch('animes/SET_MODAL_MIC', [true])
         document.documentElement.style.overflow = 'hidden'
         this.listening = true

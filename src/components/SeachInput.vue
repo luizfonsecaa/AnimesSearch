@@ -50,7 +50,7 @@
     </div>
     <div class="mt-2 flex justify-center" v-if="this.resultSearch.length > 0">
       <button class="bg-gray-200 py-1 mr-2 rounded-md w-36" @click="getData('reset')">
-        Pesquisar
+        Search
       </button>
       <!-- <button class="bg-gray-200 py-1 rounded-md w-36">Anime Aleatorio</button> -->
     </div>
