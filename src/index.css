@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.logo {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.two-colors {
+  background: linear-gradient(
+    to right,
+    #3369e8 20%,
+    #d50f25 20%,
+    #eeb211 40%,
+    #009925 40%,
+    #666666 60%,
+    #3369e8 60%,
+    #d50f25 80%,
+    #eeb211 80%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
