@@ -8,7 +8,7 @@
 <br>
 <br>
 
-## 1. Apresetação
+## 1. Apresentação
 
 <h3> Este projeto foi desenvolvido em Vue 3, Vuex, Tailwind and SpeechRecognition API. </h3>
 
